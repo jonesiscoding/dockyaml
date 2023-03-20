@@ -34,7 +34,7 @@
 		8189FF1D29C3A9C4006BF63F /* SpecialApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialApp.swift; sourceTree = "<group>"; };
 		8189FF1F29C3AA21006BF63F /* DockTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockTile.swift; sourceTree = "<group>"; };
 		8189FF2129C3ACF9006BF63F /* DockUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockUtil.swift; sourceTree = "<group>"; };
-		81B6DD1029C24450006785AE /* dockutil-yaml */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dockutil-yaml"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B6DD1029C24450006785AE /* dockyaml */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dockyaml; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B6DD1329C24450006785AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		81BF1E6429C8946200ABBAB3 /* DockConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DockConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 		81B6DD1129C24450006785AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81B6DD1029C24450006785AE /* dockutil-yaml */,
+				81B6DD1029C24450006785AE /* dockyaml */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81B6DD0F29C24450006785AE /* dockutil-yaml */ = {
+		81B6DD0F29C24450006785AE /* dockyaml */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81B6DD1729C24450006785AE /* Build configuration list for PBXNativeTarget "dockutil-yaml" */;
+			buildConfigurationList = 81B6DD1729C24450006785AE /* Build configuration list for PBXNativeTarget "dockyaml" */;
 			buildPhases = (
 				81B6DD0C29C24450006785AE /* Sources */,
 				81B6DD0D29C24450006785AE /* Frameworks */,
@@ -96,13 +96,13 @@
 			);
 			dependencies = (
 			);
-			name = "dockutil-yaml";
+			name = dockyaml;
 			packageProductDependencies = (
 				81B6DD1B29C24477006785AE /* Yams */,
 				8108D47729C260C100BD0160 /* Commands */,
 			);
 			productName = "dockutil-yaml";
-			productReference = 81B6DD1029C24450006785AE /* dockutil-yaml */;
+			productReference = 81B6DD1029C24450006785AE /* dockyaml */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81B6DD0F29C24450006785AE /* dockutil-yaml */,
+				81B6DD0F29C24450006785AE /* dockyaml */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81B6DD1729C24450006785AE /* Build configuration list for PBXNativeTarget "dockutil-yaml" */ = {
+		81B6DD1729C24450006785AE /* Build configuration list for PBXNativeTarget "dockyaml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81B6DD1829C24450006785AE /* Debug */,

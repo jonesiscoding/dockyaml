@@ -20,6 +20,7 @@ var nextYaml: Bool = false
 var isDump: Bool = false
 var isWrite: Bool = false
 var isFile: Bool = false
+var isVersion: Bool = false
 
 // Parse the Command Line Arguments
 for arg in CommandLine.arguments {
@@ -35,6 +36,8 @@ for arg in CommandLine.arguments {
         case "--from":
             isWrite = true
             nextYaml = true
+        case "--version":
+            isVersion = true
         default:
             break;
         }
@@ -47,6 +50,11 @@ for arg in CommandLine.arguments {
     } else if arg.hasSuffix(".plist") {
         dockPlist = arg
     }
+}
+
+if(isVersion) {
+    print("DockYaml v1.1")
+    exit(0)
 }
 
 // Get User from Console if not given
